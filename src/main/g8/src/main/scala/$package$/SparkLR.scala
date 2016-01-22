@@ -45,7 +45,7 @@ object SparkLR {
   }
 }
 
-@serializable
+
 @SerialVersionUID(1L)
 class SparkLR(sc: SparkContext, numSlices: Int, numIter: Int, numDatapoint: Int, dimensions: Int) {
   val ITERATIONS = numIter

@@ -66,7 +66,7 @@ object SparkLRTestDataGenerator {
   }
 }
 
-@serializable
+
 @SerialVersionUID(1L)
 class SparkLRTestDataGenerator(sc: SparkContext, output: String, parallel: Int = 2, numDatapoint: Int = 10, dimensions: Int = 10) {
   val N = numDatapoint  // Number of data points

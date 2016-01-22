@@ -52,7 +52,7 @@ object GroupByTest {
   }
 }
 
-@serializable
+
 @SerialVersionUID(1L)
 class GroupByTest (sc: SparkContext, numMappers: Int, numKVPairs: Int, valSize: Int, numReducers: Int, storageLevel: StorageLevel) {
 

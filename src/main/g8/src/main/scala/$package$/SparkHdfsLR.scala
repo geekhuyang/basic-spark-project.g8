@@ -49,7 +49,7 @@ object SparkHdfsLR {
   }
 }
 
-@serializable
+
 @SerialVersionUID(1L)
 class SparkHdfsLR(sc: SparkContext, inputPath: String, num_iter: Int, dimensions: Int) {
   val D = dimensions   // Numer of dimensions
